@@ -14,4 +14,6 @@ Branch
 - git log :Hiển thị lịch sử commit của kho lưu trữ.
 - git log --oneline :Hiển thị lịch sử commit một cách ngắn gọn
 - git checkout "branch name"
-- git checkout -b "branch name'
+- git checkout -b "branch name"
+- git merge "branch name"
+- git branch -d "branch name"
