@@ -1,6 +1,7 @@
 # Terms
 
 Repository (Repo)
+Branch
 
 # Commands
 
@@ -12,3 +13,5 @@ Repository (Repo)
 "git commit -m 'first commit'"
 - git log :Hiển thị lịch sử commit của kho lưu trữ.
 - git log --oneline :Hiển thị lịch sử commit một cách ngắn gọn
+- git checkout "branch name"
+- git checkout -b "branch name'
