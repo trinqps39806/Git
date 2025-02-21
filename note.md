@@ -3,6 +3,8 @@
 Repository (Repo)
 Branch
 Conflict
+Local
+Remote
 
 # Commands
 
@@ -14,7 +16,9 @@ Conflict
 "git commit -m 'first commit'"
 - git log :Hiển thị lịch sử commit của kho lưu trữ.
 - git log --oneline :Hiển thị lịch sử commit một cách ngắn gọn
-- git checkout "branch name"
-- git checkout -b "branch name"
-- git merge "branch name"
-- git branch -d "branch name"
+- git checkout "branch name":sang một nhánh đã tồn tại.
+- git checkout -b "branch name": Tạo nhánh mới 
+- git merge "branch name": Kết hợp
+- git branch -d "branch name": Xóa nhánh đã được hợp nhất.
+
+-git push
